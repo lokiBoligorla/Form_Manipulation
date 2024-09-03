@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main-header {
+    background-color: #28a745; 
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#main-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#filter {
+    max-width: 300px;
+    margin-left: auto;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#addForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+#item {
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+#items {
+    padding-left: 0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+}
+
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+}
